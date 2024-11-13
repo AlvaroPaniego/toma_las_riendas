@@ -1,27 +1,26 @@
 <template>
-    <AppNavBar/>
-    <ImageCarousel/>
-    
-    <TextBlock 
-    -header="Contacta con nosotros"
-    -text="Toma las Riendas es un centro dirigido por Santiago Estrada, psicólogo especialista en neuropsicología.
+    <!-- <AppNavBar/> -->
+    <main>
+        <ImageCarousel />
 
-        Te invitamos a ponerte en contacto con nosotros vía WhatsApp o llamarnos al 600 85 87 83. ¡Te esperamos, será un placer ayudarte!"
-    -footer=""
-   />
-    <p class="mapaP">Nuestra ubicación</p>
-    <img class="mapa" src="../../assets/mapaPlaceholder.png" alt="">
-   <PageDivider/>
-   <AppFooter/>
+        <TextBlock -header="Contacta con nosotros"
+            -text="Toma las Riendas es un centro dirigido por Santiago Estrada, psicólogo especialista en neuropsicología.
+
+        Te invitamos a ponerte en contacto con nosotros vía WhatsApp o llamarnos al 600 85 87 83. ¡Te esperamos, será un placer ayudarte!" -footer="" />
+        <p class="mapaP">Nuestra ubicación</p>
+        <img class="mapa" src="../../assets/mapaPlaceholder.png" alt="">
+        <PageDivider />
+        <AppFooter />
+    </main>
 </template>
 <script>
-import AppNavBar from '../shared/AppNavBar.vue';
+// import AppNavBar from '../shared/AppNavBar.vue';
 import AppFooter from '../shared/AppFooter.vue';
 import TextBlock from '../shared/TextBlock.vue';
 import PageDivider from '../shared/PageDivider.vue';
-export default{
+export default {
     components: {
-        AppNavBar,
+        // AppNavBar,
         AppFooter,
         TextBlock,
         PageDivider
@@ -29,7 +28,7 @@ export default{
 }
 </script>
 <style>
-.mapa{
+.mapa {
     display: flex;
     align-items: center;
     width: 50%;
@@ -38,7 +37,8 @@ export default{
     margin-left: auto;
     margin-right: auto;
 }
-.mapaP{
+
+.mapaP {
     text-align: center;
 }
 </style>

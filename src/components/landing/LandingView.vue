@@ -1,27 +1,27 @@
 <template>
-    <AppNavBar/>
-    <ImageCarousel/>
-    
-    <TextBlock 
-    -header="Toma las riendas"
-    -text="Toma las Riendas es un centro dirigido por Santiago Estrada, psicólogo especialista en neuropsicología. 
+    <!-- <AppNavBar/> -->
+    <main>
+        <ImageCarousel />
+
+        <TextBlock -header="Toma las riendas"
+            -text="Toma las Riendas es un centro dirigido por Santiago Estrada, psicólogo especialista en neuropsicología. 
                 Acumulamos más de 11 años de experiencia en ámbito de la psicología infanto-juvenil, trastornos del neurodesarrollo y dificultades de aprendizaje. 
                 Nos diferenciamos de otros profesionales de este ámbito gracias a un , 
                 utilizando las más punteras herramientas de evaluación cognitiva para dar un diagnóstico preciso y por nuestra forma de trabajar, cercana y comprometida."
-    -footer="Te invitamos a ponerte en contacto con nosotros en info@tomalasriendas.net. Además puedes contactar vía WhatsApp o llamarnos al 600 85 87 83.  ¡Te esperamos, será un placer ayudarte!"
-   />
-   <PageDivider/>
-   <AppFooter/>
+            -footer="Te invitamos a ponerte en contacto con nosotros en info@tomalasriendas.net. Además puedes contactar vía WhatsApp o llamarnos al 600 85 87 83.  ¡Te esperamos, será un placer ayudarte!" />
+        <PageDivider />
+        <AppFooter />
+    </main>
 </template>
 <script>
-import AppNavBar from '../shared/AppNavBar.vue';
+// import AppNavBar from '../shared/AppNavBar.vue';
 import AppFooter from '../shared/AppFooter.vue';
 import TextBlock from '../shared/TextBlock.vue';
 import ImageCarousel from '../landing/ImageCarousel.vue';
 import PageDivider from '../shared/PageDivider.vue';
-export default{
+export default {
     components: {
-        AppNavBar,
+        // AppNavBar,
         AppFooter,
         TextBlock,
         ImageCarousel,
