@@ -1,7 +1,6 @@
 <template>
     <!-- <AppNavBar/> -->
     <main>
-        <ImageCarousel />
         <div class="infoLanding">
             <h1>
                 Qué es el TDAH

@@ -1,7 +1,6 @@
 <template>
     <!-- <AppNavBar/> -->
     <main>
-        <ImageCarousel />
 
         <TextBlock -header="Contacta con nosotros"
             -text="Toma las Riendas es un centro dirigido por Santiago Estrada, psicólogo especialista en neuropsicología.

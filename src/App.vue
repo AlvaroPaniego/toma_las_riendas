@@ -1,40 +1,41 @@
 <template>
     <div>
         <nav class="centrado">
-            <router-link to="/">
+            <router-link class="enlaceImg" to="/">
                 <img src="./assets/logoTexto.png" width="100">
             </router-link>
-            <router-link to="/servicios" class="enlace">Servicios</router-link>
-            <router-link to="/tdah" class="enlace">¿Que es el TDAH?</router-link>
-            <router-link to="/nuesto_centro" class="enlace">Nuestro centro</router-link>
-            <router-link to="/contacto" class="enlace">Nosotros/Contacto</router-link>
-            <router-link to="/privacidad" class="enlace">Política de privacidad</router-link>
+            <div>
+                <router-link to="/servicios" class="enlace">Servicios</router-link>
+                <router-link to="/tdah" class="enlace">¿Que es el TDAH?</router-link>
+                <router-link to="/nuesto_centro" class="enlace">Nuestro centro</router-link>
+                <router-link to="/contacto" class="enlace">Nosotros/Contacto</router-link>
+                <router-link to="/privacidad" class="enlace">Política de privacidad</router-link>
+            </div>
         </nav>
         <router-view v-slot="{ Component }">
-            <transition name="fade">
+            <transition name="slide" mode="ease-out">
                 <component :is="Component" />
             </transition>
         </router-view>
     </div>
 </template>
 <script>
-// import AppNavBar from './components/shared/AppNavBar.vue';
-// export default{
-//     AppNavBar
-// }
 </script>
 <style>
-body {
-    margin: 0;
-    padding-top: 8px;
-}
-
 .centrado {
+    background-color: #303943;
+    padding: 1rem;
     display: flex;
     width: 50%;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin: auto;
+    border-radius: 15px;
+}
+.enlaceImg{
+    background-color: white;
+    border-radius: 25%;
+    padding: 1px;
 }
 
 .enlace {
@@ -57,15 +58,9 @@ nav .enlace.router-link-exact-active {
     border-right: 0px solid cadetblue;
     background-color: cadetblue;
 }
-
-/* nav .enlace.router-link-exact-active{
-    border: 5px solid gray;
-    border-left: 0px solid gray;
-    border-right: 0px solid gray;
-    background-color: gray;
-} */
 main {
-    top: 30px;
+    position: absolute;
+    top: 15%;
     will-change: transform, opacity;
 }
 
@@ -77,5 +72,14 @@ main {
 .fade-enter-active,
 .fade-leave-active {
     transition: opacity 0.5s ease-out;
+}
+.slide-enter-from,
+.slide-leave-to {
+    transform: translateX(100%);
+}
+
+.slide-enter-active,
+.slide-leave-active {
+    transition: 0.5s ease-out;
 }
 </style>
