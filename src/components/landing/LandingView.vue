@@ -1,7 +1,7 @@
 <template>
     <!-- <AppNavBar/> -->
     <main>
-        <ImageCarousel />
+        <ImageCarousel :slides="slides"/>
 
         <TextBlock -header="Toma las riendas"
             -text="Toma las Riendas es un centro dirigido por Santiago Estrada, psicólogo especialista en neuropsicología. 
@@ -17,7 +17,7 @@
 // import AppNavBar from '../shared/AppNavBar.vue';
 import AppFooter from '../shared/AppFooter.vue';
 import TextBlock from '../shared/TextBlock.vue';
-import ImageCarousel from '../landing/ImageCarousel.vue';
+import ImageCarousel from '../shared/ImageCarousel.vue';
 import PageDivider from '../shared/PageDivider.vue';
 export default {
     components: {
@@ -26,6 +26,13 @@ export default {
         TextBlock,
         ImageCarousel,
         PageDivider
-    }
+    },
+    data: () => ({
+        slides:[
+            "../../assets/bracitos.jpg",
+            "../../assets/logo.png",
+            "../../assets/gafitas.jpg"
+        ]
+    })
 }
 </script>

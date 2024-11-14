@@ -29,7 +29,7 @@
 // import AppNavBar from '../shared/AppNavBar.vue';
 import AppFooter from '../shared/AppFooter.vue';
 import PageDivider from '../shared/PageDivider.vue';
-import ImageCarousel from '../landing/ImageCarousel.vue';
+import ImageCarousel from '../shared/ImageCarousel.vue';
 import TextBlock from '../shared/TextBlock.vue';
 export default {
     components: {
