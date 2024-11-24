@@ -17,7 +17,7 @@
                     las necesidades de cada paciente.
                 </p>
             </div>
-            <ImageCarousel />
+            <ImageCarousel :slides="slides" />
         </div>
         <video class="divWidth" src="https://youtu.be/hoy7kHd9cy8"></video>
         <PageDivider />
@@ -38,7 +38,17 @@ export default {
         PageDivider,
         ImageCarousel,
         TextBlock
-    }
+    },
+    data: () => ({
+        slides:[
+            "https://fastly.picsum.photos/id/152/900/400.jpg?hmac=EIfRFx_PAXt2cpHd-hBoiYzhRC5jiVwtdR1r3rRinD8",
+            "https://fastly.picsum.photos/id/649/900/400.jpg?hmac=WGgoLtBo77eHDBOaja95StTXm5A92r9THMdYeB8SsWI",
+            "https://fastly.picsum.photos/id/901/900/400.jpg?hmac=qkyi6SIz1DNx4pZGhPam9Vtqft_YzQ45QdHBEWtsYG8"
+            // "../../assets/bracitos.jpg",
+            // "../../assets/logo.png",
+            // "../../assets/gafitas.jpg"
+        ]
+    })
 }
 </script>
 <style scoped>

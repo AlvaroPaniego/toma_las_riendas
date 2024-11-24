@@ -1,7 +1,7 @@
 <template>
     <Transition name="slide-in" mode="ease-in-out">
         <div class="carousel-item" v-show="currentSlide === index">
-            <img src="../../assets/bracitos.jpg" />
+            <img :src= "slide"/>
         </div>
     </Transition>
 </template>
@@ -13,6 +13,9 @@ export default {
 <style scoped>
 .carousel-item {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    margin: auto;
     top: 0;
     bottom: 0;
     right: 0;

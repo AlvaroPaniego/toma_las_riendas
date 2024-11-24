@@ -1,42 +1,39 @@
 <template>
-    <!-- <div class="carousel">
+    <div class="carousel">
         <div class="carousel-inner">
-            <carousel-item 
-                v-for="(slide, index) in slides" 
-                :slide="slide" 
-                :key="`item-${index}`"
-                :currentSlide = "currentSlide"
-                :index = "index"
-            ></carousel-item>
+            <carousel-item v-for="(slide, index) in slides" :slide="slide" :key="`item-${index}`"
+                :currentSlide="currentSlide" :index="index"></carousel-item>
         </div>
-    </div> -->
-    <div id="carrusel" class="fondoCarrusel"> 
-            <img class="imgCarrusel" src="../../assets/bracitos.jpg" alt="">
-            <img class="imgCarrusel" src="../../assets/logo.png" alt="">
-            <img class="imgCarrusel" src="../../assets/gafitas.jpg" alt="">
-        </div>
+    </div>
 </template>
 <script>
-//import CarouselItem from './CarouselItem.vue';
+import CarouselItem from './CarouselItem.vue';
 
 export default {
-    props: ['slides'],
-    //components: { CarouselItem },
+    props: {
+        slides: {
+            type: Array,
+            required: true
+        }
+    },
+    components: { CarouselItem },
     data: () => ({
         currentSlide: 0,
         slideInterval: null
     }),
-    methods:{
-        setCurrentSlide(index){
+    methods: {
+        setCurrentSlide(index) {
             console.log(index)
             this.currentSlide = index
         }
     },
     mounted() {
-        this.slideInterval = setInterval(() =>{
-            const index = this.currentSlide < this.slides.lenght - 1 ? this.currentSlide + 1 : 0
-            this.setCurrentSlide(index)
-        }, 3000)
+        console.log(this.slides); // Check if slides are available
+        this.slideInterval = setInterval(() => {
+            console.log("current slide: " + this.currentSlide + " slides length: " + this.slides.length);
+            const index = this.currentSlide < this.slides.length - 1 ? this.currentSlide + 1 : 0;
+            this.setCurrentSlide(index);
+        }, 3000);
     },
     beforeMount() {
         clearInterval(this.slideInterval)
@@ -57,7 +54,6 @@ export default {
 // window.onresize = setImageHeight
 </script>
 <style scoped>
-
 .fondoCarrusel {
     width: fit-content;
     border: 4px solid #303943;
@@ -72,14 +68,14 @@ export default {
     width: 32%;
 }
 
-/* .carousel{
+.carousel{
     display: flex;
     justify-content: center;
 }
 .carousel-inner{
     position: relative;
-    width: 900px;
+    width: 50%;
     height: 400px;
     overflow: hidden;
-} */
+} 
 </style>
