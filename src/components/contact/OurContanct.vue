@@ -3,9 +3,12 @@
     <main>
 
         <TextBlock -header="Contacta con nosotros"
-            -text="Toma las Riendas es un centro dirigido por Santiago Estrada, psicólogo especialista en neuropsicología.
+            -text="Toma las Riendas es un centro dirigido por Santiago Estrada, psicólogo especialista en neuropsicología. 
+                Acumulamos más de 11 años de experiencia en ámbito de la psicología infanto-juvenil, trastornos del neurodesarrollo y dificultades de aprendizaje. 
+                Nos diferenciamos de otros profesionales de este ámbito gracias a un , 
+                utilizando las más punteras herramientas de evaluación cognitiva para dar un diagnóstico preciso y por nuestra forma de trabajar, cercana y comprometida."
+            -footer="Te invitamos a ponerte en contacto con nosotros en info@tomalasriendas.net. Además puedes contactar vía WhatsApp o llamarnos al 600 85 87 83.  ¡Te esperamos, será un placer ayudarte!" />
 
-        Te invitamos a ponerte en contacto con nosotros vía WhatsApp o llamarnos al 600 85 87 83. ¡Te esperamos, será un placer ayudarte!" -footer="" />
         <p class="mapaP">Nuestra ubicación</p>
         <img class="mapa" src="../../assets/mapaPlaceholder.png" alt="">
         <PageDivider />
@@ -39,5 +42,5 @@ export default {
 
 .mapaP {
     text-align: center;
-}
+} 
 </style>

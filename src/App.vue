@@ -1,5 +1,12 @@
 <template>
     <div>
+        <!-- <div class="sticky">
+            <p>Contacta con nosotros:</p>
+            <div class="contacto">
+                <img src="./assets/logoWhatsapp.jpg" alt="" width="50px">
+                <p>+34 600 85 87 83</p>
+            </div>
+        </div> -->
         <nav class="centrado">
             <router-link class="enlaceImg" to="/">
                 <img src="./assets/logoTexto.png" width="100">
@@ -22,6 +29,20 @@
 <script>
 </script>
 <style>
+.contacto{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.sticky{
+    margin-top: 5px;
+    margin-left: 5px;
+    position: sticky;
+    top: 0;
+    border: 2px solid #427296;
+    width: 15%;
+    height: fit-content;
+}
 .centrado {
     background-color: #303943;
     padding: 1rem;
