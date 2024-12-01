@@ -1,12 +1,12 @@
 <template>
     <div>
-        <!-- <div class="sticky">
+        <div class="sticky">
             <p>Contacta con nosotros:</p>
             <div class="contacto">
-                <img src="./assets/logoWhatsapp.jpg" alt="" width="50px">
+                <img src="./assets/icon-telephone.png" alt="" width="50px">
                 <p>+34 600 85 87 83</p>
             </div>
-        </div> -->
+        </div>
         <nav class="centrado">
             <router-link class="enlaceImg" to="/">
                 <img src="./assets/logoTexto.png" width="100">
@@ -34,14 +34,19 @@
     justify-content: center;
     margin: auto;
 }
+.contacto p{
+    margin-left: 1rem;
+}
 .sticky{
     margin-top: 5px;
     margin-left: 5px;
-    position: sticky;
+    position: fixed;
     top: 0;
-    border: 2px solid #427296;
+    background-color: #427296;
+    border: 4px solid #303943;
     width: 15%;
     height: fit-content;
+    z-index: 2;
 }
 .centrado {
     background-color: #303943;
@@ -103,4 +108,5 @@ main {
 .slide-leave-active {
     transition: 0.5s ease-out;
 }
+
 </style>

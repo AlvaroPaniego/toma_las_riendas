@@ -7,7 +7,9 @@
                     Nuestos valores
                 </h1>
                 <div class="fila">
-                    <div class="espacio"></div>
+                    <div class="espacio">
+                        <img src="/src/assets/seriedad.png" alt="">
+                    </div>
                     <div class="texto">
                         <h1>SERIEDAD</h1>
                         <p>Este enfoque da lugar a una manera de trabajar, consensuada y
@@ -29,10 +31,14 @@
                             también conozcas tus puntos fuertes y tus virtudes, pues muchas veces
                             están ahí, pero no se hacen visibles hasta que se evalúan.</p>
                     </div>
-                    <div class="espacio"></div>
+                    <div class="espacio">
+                        <img src="/src/assets/diana.png" alt="">
+                    </div>
                 </div>
                 <div class="fila">
-                    <div class="espacio"></div>
+                    <div class="espacio">
+                        <img src="/src/assets/transparencia.png" alt="">
+                    </div>
                     <div class="texto">
                         <h1>TRANSPARENCIA</h1>
                         <p>En Toma Las Riendas tenemos también un enfoque pedagógico.
@@ -56,12 +62,13 @@
                             encanta la gente educada, con valores, virtudes y ganas de
                             mejorar</p>
                     </div>
-                    <div class="espacio"></div>
+                    <div class="espacio">
+                        <img src="/src/assets/empatia.png" alt="">
+                    </div>
                 </div>
             </div>
-            <ImageCarousel :slides="slides" />
+            <ImageCarousel style="margin-bottom: 5rem;" :slides="slides" />
         </div>
-        <video class="divWidth" src="https://youtu.be/hoy7kHd9cy8"></video>
         <PageDivider />
         <AppFooter />
     </main>
@@ -101,10 +108,7 @@ export default {
 }
 
 .fila div {
+    padding: 1rem;
     width: 50%;
-}
-
-img {
-    width: 100%;
 }
 </style>

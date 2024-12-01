@@ -29,7 +29,6 @@
                 </p>
             </div>
         </div>
-        <video class="divWidth" src="https://youtu.be/hoy7kHd9cy8"></video>
         <PageDivider />
         <AppFooter />
     </main>
