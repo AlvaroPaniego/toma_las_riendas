@@ -1,11 +1,21 @@
 <template>
     <div>
-        <div class="sticky">
+        <div class="stickyLeft">
             <p>Contacta con nosotros:</p>
             <div class="contacto">
                 <img src="./assets/icon-telephone.png" alt="" width="50px">
                 <p>+34 600 85 87 83</p>
             </div>
+        </div>
+        <div class="stickyRight">
+            <div class="headerReview">
+                <div class="fotoPerfil"></div>
+                <p>Lorem ipsum</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta rem blanditiis laudantium porro,
+                architecto dolores harum ex fugit deserunt nihil maxime impedit eligendi dolore quos quasi. Dicta alias
+                architecto nesciunt.</p>
+            <p>Nota: 5/5</p>
         </div>
         <nav class="centrado">
             <router-link class="enlaceImg" to="/">
@@ -27,17 +37,55 @@
     </div>
 </template>
 <script>
+import PageDivider from './components/shared/PageDivider.vue';
+export default {
+    PageDivider
+}
 </script>
 <style>
-.contacto{
+.contacto {
     display: flex;
     justify-content: center;
     margin: auto;
 }
-.contacto p{
+
+.headerReview {
+    display: flex;
+    justify-content: start;
+    margin: auto;
+}
+
+.headerReview p {
     margin-left: 1rem;
 }
-.sticky{
+
+.contacto p {
+    margin-left: 1rem;
+}
+
+.fotoPerfil {
+    width: 50px;
+    height: 50px;
+    background-color: darkorchid;
+    border-radius: 25%;
+}
+
+.stickyRight {
+    padding: 0.5rem;
+    margin-top: 5px;
+    margin-right: 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 15%;
+    height: fit-content;
+    z-index: 2;
+}
+
+.stickyLeft {
+    padding: 0.5rem;
     margin-top: 5px;
     margin-left: 5px;
     position: fixed;
@@ -48,6 +96,7 @@
     height: fit-content;
     z-index: 2;
 }
+
 .centrado {
     background-color: #303943;
     padding: 1rem;
@@ -58,7 +107,8 @@
     margin: auto;
     border-radius: 15px;
 }
-.enlaceImg{
+
+.enlaceImg {
     background-color: white;
     border-radius: 25%;
     padding: 1px;
@@ -84,6 +134,7 @@ nav .enlace.router-link-exact-active {
     border-right: 0px solid cadetblue;
     background-color: cadetblue;
 }
+
 main {
     position: absolute;
     top: 15%;
@@ -99,6 +150,7 @@ main {
 .fade-leave-active {
     transition: opacity 0.5s ease-out;
 }
+
 .slide-enter-from,
 .slide-leave-to {
     transform: translateX(100%);
@@ -108,5 +160,4 @@ main {
 .slide-leave-active {
     transition: 0.5s ease-out;
 }
-
 </style>
