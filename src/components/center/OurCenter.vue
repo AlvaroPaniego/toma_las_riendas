@@ -111,4 +111,13 @@ export default {
     padding: 1rem;
     width: 50%;
 }
+.espacio{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.espacio img{
+    width: 50%;
+    margin: auto;
+}
 </style>

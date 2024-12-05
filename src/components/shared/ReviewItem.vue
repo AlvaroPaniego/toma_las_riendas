@@ -1,15 +1,16 @@
 <template>
     <div class="stickyRight">
         <div class="headerReview">
-            <div class="fotoPerfil"></div>
+            <div class="fotoPerfil">
+                <p>5/5</p>
+            </div>
             <p>Lorem ipsum</p>
         </div>
-        <PageDivider/>
+        <PageDivider />
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta rem blanditiis laudantium porro,
             architecto dolores harum ex fugit deserunt nihil maxime impedit eligendi dolore quos quasi. Dicta alias
             architecto nesciunt.</p>
-        <PageDivider/>
-        <p>Nota: 5/5</p>
+
     </div>
 </template>
 <script>
@@ -36,8 +37,17 @@ export default {
 .fotoPerfil {
     width: 50px;
     height: 50px;
-    background-color: darkorchid;
+    border: 2px solid black;
     border-radius: 25%;
+}
+
+.fotoPerfil p {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .stickyRight {

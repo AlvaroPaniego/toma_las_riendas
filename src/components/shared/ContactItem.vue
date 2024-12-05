@@ -28,6 +28,7 @@
     border: 4px solid #303943;
     width: 15%;
     height: fit-content;
+    border-radius: 5px;
     z-index: 2;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
     <div>
         <ContactItem></ContactItem>
-        <ReviewBlock></ReviewBlock>
+        <!-- <ReviewBlock></ReviewBlock> -->
         <nav class="centrado">
             <router-link class="enlaceImg" to="/">
                 <img src="./assets/logoTexto.png" width="100">
@@ -23,16 +23,16 @@
 </template>
 <script>
 import ContactItem from './components/shared/ContactItem.vue';
-import ReviewBlock from './components/shared/ReviewItem.vue';
+// import ReviewBlock from './components/shared/ReviewItem.vue';
 export default {
     components: {
-        ReviewBlock,
+        // ReviewBlock,
         ContactItem
     }
 }
 </script>
 <style>
-p {
+p, li {
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
