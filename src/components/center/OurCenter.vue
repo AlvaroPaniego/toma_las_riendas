@@ -8,7 +8,7 @@
                 </h1>
                 <div class="fila">
                     <div class="espacio">
-                        <img src="/src/assets/seriedad.png" alt="">
+                        <img src="../../assets/seriedad.png" alt="">
                     </div>
                     <div class="texto">
                         <h1>SERIEDAD</h1>
@@ -32,12 +32,12 @@
                             están ahí, pero no se hacen visibles hasta que se evalúan.</p>
                     </div>
                     <div class="espacio">
-                        <img src="/src/assets/diana.png" alt="">
+                        <img src="../../assets/diana.png" alt="">
                     </div>
                 </div>
                 <div class="fila">
                     <div class="espacio">
-                        <img src="/src/assets/transparencia.png" alt="">
+                        <img src="../../assets/transparencia.png" alt="">
                     </div>
                     <div class="texto">
                         <h1>TRANSPARENCIA</h1>
@@ -63,7 +63,7 @@
                             mejorar</p>
                     </div>
                     <div class="espacio">
-                        <img src="/src/assets/empatia.png" alt="">
+                        <img src="../../assets/empatia.png" alt="">
                     </div>
                 </div>
             </div>

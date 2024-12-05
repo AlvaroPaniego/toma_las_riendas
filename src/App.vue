@@ -32,6 +32,13 @@ export default {
 }
 </script>
 <style>
+p {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .centrado {
     background-color: #303943;
     padding: 1rem;
