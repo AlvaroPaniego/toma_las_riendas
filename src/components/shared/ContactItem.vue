@@ -31,4 +31,19 @@
     border-radius: 5px;
     z-index: 2;
 }
+
+@media (max-width: 900px) {
+    .stickyLeft {
+        padding: 0.5rem;
+        margin: auto;
+        top: 0;
+        background-color: #427296;
+        border: 4px solid #303943;
+        width: 75%;
+        height: fit-content;
+        border-radius: 5px;
+        z-index: 2;
+        position: relative;
+    }
+}
 </style>
