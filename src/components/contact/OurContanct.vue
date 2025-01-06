@@ -3,14 +3,20 @@
     <main>
         <div class="fila infoLanding">
             <div>
-                <img src="../../assets/logo.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsa tempore non! Et officia sapiente, vel hic aperiam reprehenderit perferendis officiis rem ut odio? Minima ullam nisi id exercitationem facilis?
-                Assumenda minus at animi dolorum quae vero a, non tempore eius reiciendis! Velit facere officia aperiam nam distinctio fugit. Aperiam, est? Ut reiciendis voluptas accusantium cum sed ratione! Mollitia, esse!</p>
+                <img style="display: flex; margin: auto; width: 75%;" src="../../assets/logo.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsa tempore non! Et officia sapiente,
+                    vel hic aperiam reprehenderit perferendis officiis rem ut odio? Minima ullam nisi id exercitationem
+                    facilis?
+                </p>
             </div>
             <div>
-                <img src="../../assets/logo.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsa tempore non! Et officia sapiente, vel hic aperiam reprehenderit perferendis officiis rem ut odio? Minima ullam nisi id exercitationem facilis?
-                Assumenda minus at animi dolorum quae vero a, non tempore eius reiciendis! Velit facere officia aperiam nam distinctio fugit. Aperiam, est? Ut reiciendis voluptas accusantium cum sed ratione! Mollitia, esse!</p>
+                <img style="display: flex; margin: auto; width: 75%;" src="../../assets/logo.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsa tempore non! Et officia sapiente,
+                    vel hic aperiam reprehenderit perferendis officiis rem ut odio? Minima ullam nisi id exercitationem
+                    facilis?
+                    Assumenda minus at animi dolorum quae vero a, non tempore eius reiciendis! Velit facere officia
+                    aperiam nam distinctio fugit. Aperiam, est? Ut reiciendis voluptas accusantium cum sed ratione!
+                    Mollitia, esse!</p>
             </div>
         </div>
         <TextBlock -header="Contacta con nosotros"
@@ -22,7 +28,10 @@
 
         <p class="mapaP">Nuestra ubicación</p>
         <!-- <img class="mapa" src="../../assets/mapaPlaceholder.png" alt=""> -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6081.125804140509!2d-3.8191742234661357!3d40.35204135957317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41893412a74569%3A0xa56a8367bc73b743!2sSantiago%20Estrada%20Psic%C3%B3logos!5e0!3m2!1ses!2ses!4v1733077481001!5m2!1ses!2ses" class="mapa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6081.125804140509!2d-3.8191742234661357!3d40.35204135957317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41893412a74569%3A0xa56a8367bc73b743!2sSantiago%20Estrada%20Psic%C3%B3logos!5e0!3m2!1ses!2ses!4v1733077481001!5m2!1ses!2ses"
+            class="mapa" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         <PageDivider />
         <AppFooter />
     </main>
@@ -54,7 +63,8 @@ export default {
 
 .mapaP {
     text-align: center;
-} 
+}
+
 .fila {
     display: flex;
     justify-content: center;
@@ -64,5 +74,13 @@ export default {
 .fila div {
     padding: 1rem;
     width: 50%;
+}
+
+@media (max-width: 900px) {
+    .fila {
+        display: block;
+        justify-content: center;
+        margin: auto;
+    }
 }
 </style>

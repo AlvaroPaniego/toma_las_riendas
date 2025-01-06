@@ -167,11 +167,13 @@ main {
     p {
         font-size: medium;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: justify;
     }
 
     h1,
     a {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: justify;
     }
 
     nav .enlace {

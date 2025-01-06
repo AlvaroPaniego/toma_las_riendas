@@ -6,37 +6,45 @@
             -footer="" />
         <PageDivider />
         <TextBlock -header="Gamificación de la terapia"
-                -text="La gamificación en la terapia psicológica presenta numerosas ventajas al mejorar la motivación y el compromiso de los pacientes. Al integrar elementos de juego, como recompensas, desafíos y puntuaciones, se transforma el proceso terapéutico en una experiencia más dinámica y atractiva. Esto es especialmente beneficioso para niños y adolescentes, quienes tienden a conectarse más fácilmente con actividades interactivas y lúdicas. Además, la gamificación permite personalizar el tratamiento, adaptando juegos y ejercicios a las necesidades específicas de cada paciente, lo que mejora la efectividad y la experiencia global de la terapia."
-                -footer=""
-                >
-            </TextBlock>
-            <div class="divWidth">
-                <img style="width: 50%; margin: auto;" src="../../assets/gamificacion.webp" alt="">
-            </div>
+            -text="La gamificación en la terapia psicológica presenta numerosas ventajas al mejorar la motivación y el compromiso de los pacientes. Al integrar elementos de juego, como recompensas, desafíos y puntuaciones, se transforma el proceso terapéutico en una experiencia más dinámica y atractiva. Esto es especialmente beneficioso para niños y adolescentes, quienes tienden a conectarse más fácilmente con actividades interactivas y lúdicas. Además, la gamificación permite personalizar el tratamiento, adaptando juegos y ejercicios a las necesidades específicas de cada paciente, lo que mejora la efectividad y la experiencia global de la terapia."
+            -footer="">
+        </TextBlock>
         <div class="divWidth">
-            <div class="infoLanding">
+            <img style="width: 50%; margin: auto;" src="../../assets/gamificacion.webp" alt="">
+        </div>
+        <!-- <div class="divWidth"> -->
+        <!-- <div class="infoLanding">
                 <h1>
                     Evaluación y terapia neuropsicológica infantil y adultos
                 </h1>
-                <img src="../../assets/libretas.jpg">
+                
                 <p>
                     Ofrecemos terapia neuropsicológica infanto-juvenil y adultos: TDAH, dislexia, transtornos
                     emocionales y de aprendizaje, daño cerebral. Además realizamos evaluaciones completas adaptadas a
                     las necesidades de cada paciente.
                 </p>
-            </div>
-            <div class="infoLanding">
+            </div> -->
+        <TextBlock -header="Evaluación y terapia neuropsicológica infantil y adultos" -text="Ofrecemos terapia neuropsicológica infanto-juvenil y adultos: TDAH, dislexia, transtornos
+                    emocionales y de aprendizaje, daño cerebral. Además realizamos evaluaciones completas adaptadas a
+                    las necesidades de cada paciente." />
+        <img style="display: flex; margin: auto; width: 50%;" src="../../assets/libretas.jpg">
+        <!-- <div class="infoLanding">
                 <h1>
-                    Test Aula Nesplora de Realidad Virtual para detección de TDAH
+
                 </h1>
-                <img src="../../assets/aula.jpg">
+
                 <p>
                     AULA es un test de atención avanzado que utiliza unas gafas de realidad virtual para simular una
                     clase escolar. Evalúa la tendencia a la distracción, al introducir distractores típicos de una clase
                     escolar. Mira cómo funciona en el vídeo que encontrarás al final de esta página.
                 </p>
-            </div>
-        </div>
+                
+            </div> -->
+        <TextBlock -header="Test Aula Nesplora de Realidad Virtual para detección de TDAH" -text="AULA es un test de atención avanzado que utiliza unas gafas de realidad virtual para simular una
+                    clase escolar. Evalúa la tendencia a la distracción, al introducir distractores típicos de una clase
+                    escolar. Mira cómo funciona en el vídeo que encontrarás al final de esta página." />
+        <img style="display: flex; margin: auto; width: 50%;" src="../../assets/aula.jpg">
+        <!-- </div> -->
         <PageDivider />
         <AppFooter />
     </main>
@@ -71,5 +79,19 @@ export default {
 .divWidth img {
     width: 100%;
     object-fit: cover;
+}
+
+@media (max-width: 900px) {
+    .divWidth {
+        align-items: center;
+        align-items: first baseline;
+        width: 50%;
+        padding: 8px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }
 </style>
