@@ -90,12 +90,9 @@ export default {
     },
     data: () => ({
         slides: [
-            "https://fastly.picsum.photos/id/152/900/400.jpg?hmac=EIfRFx_PAXt2cpHd-hBoiYzhRC5jiVwtdR1r3rRinD8",
-            "https://fastly.picsum.photos/id/649/900/400.jpg?hmac=WGgoLtBo77eHDBOaja95StTXm5A92r9THMdYeB8SsWI",
-            "https://fastly.picsum.photos/id/901/900/400.jpg?hmac=qkyi6SIz1DNx4pZGhPam9Vtqft_YzQ45QdHBEWtsYG8"
-            // "../../assets/bracitos.jpg",
-            // "../../assets/logo.png",
-            // "../../assets/gafitas.jpg"
+            "bracitos.jpg",
+            "logo.png",
+            "gafitas.jpg"
         ]
     })
 }
@@ -111,13 +108,27 @@ export default {
     padding: 1rem;
     width: 50%;
 }
-.espacio{
+
+.espacio {
     display: flex;
     align-content: center;
     justify-content: center;
 }
-.espacio img{
-    width: 50%;
-    margin: auto;
+
+@media (max-width: 900px) {
+    .espacio img {
+        display: none;
+    }
+
+    .fila {
+        display: block;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .fila div {
+        padding: 1rem;
+        width: 75%;
+    }
 }
 </style>
