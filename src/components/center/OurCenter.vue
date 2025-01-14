@@ -90,9 +90,14 @@ export default {
     },
     data: () => ({
         slides: [
-            "bracitos.jpg",
-            "logo.png",
-            "gafitas.jpg"
+            "vestibulo.jpg",
+            "sala_espera_2.jpg",
+            "consulta_1.jpg",
+            "entrada.jpg",
+            "consulta_2.jpg",
+            "sala_espera_1.jpg",
+            "consulta_3.jpg",
+            "sala_espera_3.jpg"
         ]
     })
 }

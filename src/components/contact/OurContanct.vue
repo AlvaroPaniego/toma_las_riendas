@@ -3,14 +3,14 @@
     <main>
         <div class="fila infoLanding">
             <div>
-                <img style="display: flex; margin: auto; width: 75%;" src="../../assets/logo.png" alt="">
+                <img style="display: flex; margin: auto; width: 75%;" src="../../assets/portrait_1.jpg" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsa tempore non! Et officia sapiente,
                     vel hic aperiam reprehenderit perferendis officiis rem ut odio? Minima ullam nisi id exercitationem
                     facilis?
                 </p>
             </div>
             <div>
-                <img style="display: flex; margin: auto; width: 75%;" src="../../assets/logo.png" alt="">
+                <img style="display: flex; margin: auto; width: 75%;" src="../../assets/portrait_2.jpg" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsa tempore non! Et officia sapiente,
                     vel hic aperiam reprehenderit perferendis officiis rem ut odio? Minima ullam nisi id exercitationem
                     facilis?
