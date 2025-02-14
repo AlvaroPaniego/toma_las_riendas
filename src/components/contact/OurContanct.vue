@@ -2,23 +2,17 @@
     <!-- <AppNavBar/> -->
     <main>
         <div class="fila infoLanding">
-            <div>
-                <img style="display: flex; margin: auto; width: 75%;" src="../../assets/portrait_1.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsa tempore non! Et officia sapiente,
-                    vel hic aperiam reprehenderit perferendis officiis rem ut odio? Minima ullam nisi id exercitationem
-                    facilis?
-                </p>
-            </div>
-            <div>
-                <img style="display: flex; margin: auto; width: 75%;" src="../../assets/portrait_2.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsa tempore non! Et officia sapiente,
-                    vel hic aperiam reprehenderit perferendis officiis rem ut odio? Minima ullam nisi id exercitationem
-                    facilis?
-                    Assumenda minus at animi dolorum quae vero a, non tempore eius reiciendis! Velit facere officia
-                    aperiam nam distinctio fugit. Aperiam, est? Ut reiciendis voluptas accusantium cum sed ratione!
-                    Mollitia, esse!</p>
-            </div>
+            <img style="display: flex; margin: auto; width: 75%;padding: 1rem;" src="../../assets/portrait_1.jpg"
+                alt="">
+
+            <img style="display: flex; margin: auto; width: 75%; padding: 1rem;" src="../../assets/portrait_2.jpg"
+                alt="">
+
         </div>
+        <TextBlock
+            -header="Santiago Estrada - Neuropsicólogo y Psicólogo General Sanitario (Nº M-22152) y Nuria Férnandez - Psicóloga colegiada (N.º M-41819)"
+            -text="Somos especialistas en evaluación y diagnóstico neuropsicológico de trastornos neurocognitivos y del neurodesarrollo en niños, adolescentes y adultos (TDAH, TEA, discapacidad intelectual, trastornos de aprendizaje...). Desde la psicoterapia cognitivo-conductual abordarmos trastornos de conducta, trastornos de personalidad y patologías psiquiátricas como TOC, ansiedad, depresión y fobias."
+            -footer="Nuestro enfoque combina rigor técnico con una clara vocación pedagógica, ayudando a pacientes y familiares a comprender sus dificultades sin etiquetas ni prejuicios. Nos caracterizamos por un trato cercano, resolutivo y claro, utilizando metáforas y explicaciones visuales para hacer más accesible la terapia. La transparencia y la comunicación abierta son pilares fundamentales en nuestro trabajo." />
         <TextBlock -header="Contacta con nosotros"
             -text="Toma las Riendas es un centro dirigido por Santiago Estrada, psicólogo especialista en neuropsicología. 
                 Acumulamos más de 11 años de experiencia en ámbito de la psicología infanto-juvenil, trastornos del neurodesarrollo y dificultades de aprendizaje. 
