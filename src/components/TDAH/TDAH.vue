@@ -1,117 +1,80 @@
 <template>
-    <!-- <AppNavBar/> -->
     <main>
-        <!-- <div class="infoLanding"> -->
-        <!-- <h1>
-                Qué es el TDAH
-            </h1>
-            <img src="../../assets/ninioFrustrao.jpg">
-            <p>
-                El Trastorno por Déficit de Atención e Hiperactividad, también conocido por sus siglas como TDAH es un
-                trastorno del desarrollo neurobiológico caracterizado por la dificultad para mantener la atención, la
-                hiperactividad o exceso de movimiento y la impulsividad o déficit en el control de impulsos. Todas estas
-                dificultades afectan significativamente en el día a día de los chicos/ as, ya que afectan a su
-                rendimiento en casa, en el colegio, con sus amigos...
-                Si bien existen distintas estimaciones en cuanto a su prevalencia en la infancia, las cifras más
-                consensuadas la sitúa en torno a un 4-6% de la población infantil.
+        <h1 style="text-align: center; margin-top: 60px;">Evaluación de TDAH y funcionamiento cognitivo</h1>
+        <div class="text-with-image">
+            <div class="img-div">
+                <img src="../../assets/trabajando_con_psicóloga_en_evaluación.png" alt="" class="shadow-img" width="100%" />
+            </div>
+            <div class="text-div">
+                <h1 style="text-align: center;">Entiende qué está pasando y qué hacer con ello
+                    ¿Notas que algo no encaja?</h1>
+                    <p style="color: #d5a08a;">Dificultad para concentrarse o mantener la atención
+                        Problemas en el rendimiento académico o laboral
+                        Desorganización, impulsividad o olvidos constantes
+                        Sensación de “rendir por debajo” de lo esperado</p>
+                    <p style="color: #5d6c7e;">La evaluación neuropsicológica permite salir de la duda y obtener respuestas claras y objetivas.</p>
+            </div>
+        </div>
+        <div class="text-with-image">
+            <div class="img-div">
+                <img src="../../assets/evaluacion_adultos.png" alt="" class="shadow-img" width="100%" />
+            </div>
+            <div class="text-div">
+                <h1 style="text-align: center;">¿Qué hacemos exactamente?</h1>
+                <p style="color: #d5a08a;">Realizamos un análisis completo del funcionamiento cognitivo mediante pruebas estandarizadas y clínicamente validadas, comparando el rendimiento con lo esperado para su edad.</p>
+                <p style="color: #5d6c7e;">Evaluamos:</p>
+                <ul>
+                    <li><p>Atención y concentración</p></li>
+                    <li><p>Funciones ejecutivas (organización, control, planificación)</p></li>
+                    <li><p>Memoria</p></li>
+                    <li><p>Lenguaje</p></li>
+                    <li><p>Inteligencia (CI)</p></li>
+                </ul>
+                <p style="color: #5d6c7e;">No solo vemos si hay dificultad, sino cómo y por qué ocurre. Un diagnóstico claro, no suposiciones</p>
+                <p style="color: #5d6c7e;">A diferencia de una simple valoración orientativa, aquí obtienes:</p>
+                <ul>
+                    <li><p>Un perfil cognitivo completo</p></li>
+                    <li><p>Identificación de puntos fuertes y débiles</p></li>
+                    <li><p>Datos objetivos para confirmar o descartar TDAH</p></li>
+                    <li><p>Explicación clínica comprensible</p></li>
+                </ul>
+                <p style="color: #d5a08a;">Esto permite entender si el problema es realmente TDAH u otra dificultad.</p>
+                <h1 style="text-align: center;">¿Cómo es el proceso?</h1>
+                <ul>
+                    <li>
+                        <p>Entrevista clínica + cuestionario</p>
+                        <p>Analizamos el caso en profundidad (en niños, también con información de los padres).</p>
+                    </li>
+                    <li>
+                        <p>Evaluación con pruebas específicas></p>
+                        <p>Aplicamos test estandarizados y herramientas clínicas avanzadas.</p>
+                    </li>
+                    <li>
+                        <p>Informe y explicación</p>
+                        <p>Recibes un informe completo con conclusiones claras y recomendaciones concretas.</p>
+                    </li>
+                </ul>
+                <h1 style="text-align: center;">¿Para quién es?</h1>
+                <ul>
+                    <li><p>Niños con dificultades escolares, atención o conducta.</p></li>
+                    <li><p>Adultos con sospecha de TDAH.</p></li>
+                    <li><p>Personas que quieren entender su rendimiento cognitivo.</p></li>
+                    <li><p>Lenguaje.</p></li>
+                    <li><p>Casos en los que se necesita un informe para colegio o especialistas.</p></li>
+                </ul>
+                <p style="color: #5d6c7e;">No se trata solo de poner una etiqueta. Se trata de entender qué está pasando y tener un plan claro para mejorar</p>
+            </div>
+        </div>
 
-
-                En Toma las Riendas llevamos trabajando con chicos y chicas diagnosticados de TDAH y otros trastornos
-                del desarrollo y de conducta desde hace más de 10 años. Nuestra filosofía de trabajo gira en torno a
-                tres ejes prinicipales:
-            </p>
-            <li>
-                La evaluación neuropsicológica
-            </li>
-            <p>
-                Mediante esta evaluación establecemos un perfil cognitivo o “mapa” de puntos fuertes y débiles del
-                niño/a para así entender el origen y las repercusiones de su trastorno. Para ello comparamos las
-                puntuaciones obtenidas en las distintas pruebas (estandarizadas y aprobadas por la comunidad científica
-                internacional) con las esperables según su nivel de edad. De esta forma conoceremos las desviaciones
-                significativas (por encima y por debajo de la media) en el rendimiento del niño/a y tendremos un modelo
-                explicativo del origen de sus dificultades.
-            </p>
-            <li>
-                La intervención cognitivo- conductual
-            </li>
-            <p>
-                Todas las dificultades encontradas en la evaluación se manifiestan en forma de conductas en el día a
-                día: problemas para estudiar, para mantener hábitos y rutinas, falta de interés, falta de autonomía...
-                asimismo vemos con frecuencia dificultades mayores de comportamiento tales como las mentiras, la
-                agresividad, el oposicionismo, la baja tolerancia a la frustración, la falta de autoestima.. en Toma las
-                Riendas trabajamos implementando pautas de conducta tanto para el chico /a como para su entorno
-                familiar. De esta forma ayudamos a mejorar significativamente las relaciones familiares y la imagen que
-                el chico/a tiene de si mismo/a, haciéndole ver su potencial y facilitando que él participe activamente
-                en su mejoría.
-            </p>
-            <li>
-                El trabajo en grupo
-            </li>
-            <p>
-                Desde hace años venimos observando una gran carencia en la terapia psicológica tradicional: el trabajo
-                profundo de las relaciones sociales. En Toma las Riendas consideramos que es fundamental conseguir que
-                los chicos/as se sientan parte de un equipo, ayudándoles a ver que no están solos y que no son tan
-                especiales o “raros” como creen, facilitando a que establezcan lazos saludables de igualdad entre ellos
-                y que descubran otras habilidades y talentos a través de un hobby. Asimismo, nos da la oportunidad a los
-                profesionales de recoger información valiosísima acerca de cómo se comporta en grupo de iguales el
-                chico/ a. Por esta razón, en Toma las Riendas planteamos como parte de la terapia, trabajo en grupo y
-                actividades de ocio saludable tanto para los que vienen a nuestro centro como a otros del barrio
-                (talleres de maquetas, pintura de miniaturas, juegos de mesa...).
-            </p> -->
-
-        <!-- </div> -->
-        <TextBlock -header="Qué es el TDAH" -text="El Trastorno por Déficit de Atención e Hiperactividad, también conocido por sus siglas como TDAH es un
-                trastorno del desarrollo neurobiológico caracterizado por la dificultad para mantener la atención, la
-                hiperactividad o exceso de movimiento y la impulsividad o déficit en el control de impulsos. Todas estas
-                dificultades afectan significativamente en el día a día de los chicos/ as, ya que afectan a su
-                rendimiento en casa, en el colegio, con sus amigos...
-                Si bien existen distintas estimaciones en cuanto a su prevalencia en la infancia, las cifras más
-                consensuadas la sitúa en torno a un 4-6% de la población infantil.
-
-
-                En Toma las Riendas llevamos trabajando con chicos y chicas diagnosticados de TDAH y otros trastornos
-                del desarrollo y de conducta desde hace más de 10 años. Nuestra filosofía de trabajo gira en torno a
-                tres ejes prinicipales:" />
-        <img style="display: flex; margin: auto; width: 50%;" src="../../assets/ninioFrustrao.jpg">
-        <TextBlock -header="La evaluación neuropsicológica" -text="Mediante esta evaluación establecemos un perfil cognitivo o “mapa” de puntos fuertes y débiles del
-                niño/a para así entender el origen y las repercusiones de su trastorno. Para ello comparamos las
-                puntuaciones obtenidas en las distintas pruebas (estandarizadas y aprobadas por la comunidad científica
-                internacional) con las esperables según su nivel de edad. De esta forma conoceremos las desviaciones
-                significativas (por encima y por debajo de la media) en el rendimiento del niño/a y tendremos un modelo
-                explicativo del origen de sus dificultades." />
-        <TextBlock -header="La intervención cognitivo- conductual" -text="Todas las dificultades encontradas en la evaluación se manifiestan en forma de conductas en el día a
-                día: problemas para estudiar, para mantener hábitos y rutinas, falta de interés, falta de autonomía...
-                asimismo vemos con frecuencia dificultades mayores de comportamiento tales como las mentiras, la
-                agresividad, el oposicionismo, la baja tolerancia a la frustración, la falta de autoestima.. en Toma las
-                Riendas trabajamos implementando pautas de conducta tanto para el chico /a como para su entorno
-                familiar. De esta forma ayudamos a mejorar significativamente las relaciones familiares y la imagen que
-                el chico/a tiene de si mismo/a, haciéndole ver su potencial y facilitando que él participe activamente
-                en su mejoría." />
-        <TextBlock -header="El trabajo en grupo" -text="Desde hace años venimos observando una gran carencia en la terapia psicológica tradicional: el trabajo
-                profundo de las relaciones sociales. En Toma las Riendas consideramos que es fundamental conseguir que
-                los chicos/as se sientan parte de un equipo, ayudándoles a ver que no están solos y que no son tan
-                especiales o “raros” como creen, facilitando a que establezcan lazos saludables de igualdad entre ellos
-                y que descubran otras habilidades y talentos a través de un hobby. Asimismo, nos da la oportunidad a los
-                profesionales de recoger información valiosísima acerca de cómo se comporta en grupo de iguales el
-                chico/ a. Por esta razón, en Toma las Riendas planteamos como parte de la terapia, trabajo en grupo y
-                actividades de ocio saludable tanto para los que vienen a nuestro centro como a otros del barrio
-                (talleres de maquetas, pintura de miniaturas, juegos de mesa...)." />
-        <p class="firma">Santiago Estrada, psicólogo especialista en neuropsicología. </p>
-        <PageDivider />
         <AppFooter />
     </main>
 </template>
 <script>
-// import AppNavBar from '../shared/AppNavBar.vue';
 import AppFooter from '../shared/AppFooter.vue';
-import PageDivider from '../shared/PageDivider.vue';
-import TextBlock from '../shared/TextBlock.vue';
 export default {
     components: {
         // AppNavBar,
         AppFooter,
-        PageDivider,
-        TextBlock
     }
 }
 </script>
@@ -127,5 +90,10 @@ export default {
     margin: auto;
     margin-bottom: 1rem;
     width: 50%;
+}
+
+.text-div {
+    padding: 40px;
+    text-align: justify;
 }
 </style>

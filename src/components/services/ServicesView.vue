@@ -1,65 +1,84 @@
 <template>
     <!-- <AppNavBar/> -->
     <main>
-        <TextBlock -img-source="" -header="Servicios/ terapias"
-            -text="En Toma las Riendas trabajamos para ofrecerte el mejor diagnóstico y tratamiento adaptado a las necesidades de cada paciente."
-            -footer="" />
-        <PageDivider />
-        <TextBlock -header="Gamificación de la terapia"
-            -text="La gamificación en la terapia psicológica presenta numerosas ventajas al mejorar la motivación y el compromiso de los pacientes. Al integrar elementos de juego, como recompensas, desafíos y puntuaciones, se transforma el proceso terapéutico en una experiencia más dinámica y atractiva. Esto es especialmente beneficioso para niños y adolescentes, quienes tienden a conectarse más fácilmente con actividades interactivas y lúdicas. Además, la gamificación permite personalizar el tratamiento, adaptando juegos y ejercicios a las necesidades específicas de cada paciente, lo que mejora la efectividad y la experiencia global de la terapia."
-            -footer="">
-        </TextBlock>
-        <div class="divWidth">
-            <img style="width: 50%; margin: auto;" src="../../assets/gamificacion.webp" alt="">
+        <h1 style="text-align: center; margin-top: 60px;">SERVICIOS</h1>
+        <div style="width: 100%;">
+            <div class="service-item">
+                <div class="div-text">
+                    <h1>TDAH</h1>
+                    <p style="color: #5d6c7e;">En Estrada-Fernández Psicólogos realizamos una evaluación exhaustiva del
+                        TDAH
+                        en niños, adolescentes
+                        y adultos</p>
+                    <p style="color: #d5a08a;">Nuestro proceso incluye entrevistas clínicas, pruebas estandarizadas y
+                        análisis del entorno familiar,
+                        educativo/ laboral.</p>
+                    <p style="color: #5d6c7e;">El objetivo es obtener un diagnóstico preciso que permita diseñar
+                        estrategias
+                        de intervención
+                        ajustadas a las necesidades reales de cada persona, favoreciendo la atención, la organización y
+                        el
+                        control de la impulsividad</p>
+                </div>
+                <img class="service-img" src="../../assets/TDAH.jpg" alt="">
+            </div>
+            <img src="../../assets/SEPARADOR.png" alt="" class="img-center">
+            <div class="service-item service-item-par">
+                <img class="service-img" src="../../assets/ALTAS CAPACIDADES.png" alt="">
+                <div class="div-text">
+                    <h1>Altas capacidades</h1>
+                    <p style="color: #5d6c7e;">Identificamos y acompañamos a personas con altas capacidades
+                        intelectuales
+                        mediante evaluaciones que miden tanto el potencial cognitivo como los aspectos emocionales y
+                        sociales.</p>
+                    <p style="color: #d5a08a;">Entendemos que el talento necesita orientación, por eso ofrecemos
+                        informes
+                        claros y programas de desarrollo que ayudan a canalizar las capacidades hacia un crecimiento
+                        equilibrado, en el aula o en la vida cotidiana.</p>
+                </div>
+            </div>
+            <img src="../../assets/SEPARADOR.png" alt="" class="img-center">
+            <div class="service-item service-item-par">
+                <img class="service-img" src="../../assets/SUPERVISIÓN.png" alt="">
+                <div class="div-text">
+                    <h1>Supervisión de casos clínicos/ mentoring piscológico</h1>
+                    <p style="color: #5d6c7e;">Nuestra amplia experiencia ha ayudado a decenas de compañeros a la hora
+                        de
+                        sacar adelante retos terapéuticos, casos difíciles o cambios de paradigma.</p>
+                    <p style="color: #d5a08a;">Nuestro conocimiento técnico, combinado con un abordaje pedagógico, ha
+                        ayudado a los/ las psicólogos/ as que nos han contactado desde todas partes del mundo a disipar
+                        sus
+                        dudas y a ofrecerles orientación para reconducir a sus pacientes.</p>
+                    <p style="color: #5d6c7e;">Ofrecemos nuestro servicio de supervisión y mentoring de forma online o
+                        presencial en formato uno a uno o en grupos reducidos.</p>
+                </div>
+            </div>
+            <img src="../../assets/SEPARADOR.png" alt="" class="img-center">
+            <div class="service-item">
+                <div class="div-text">
+                    <h1>Evaluaciones periciales</h1>
+                    <p style="color: #5d6c7e;">El gabinete ofrece evaluaciones periciales especializadas en discapacidad
+                        intelectual, daño cerebral adquirido, demencias y otras condiciones que afectan al
+                        funcionamiento
+                        cognitivo o conductual.</p>
+                    <p style="color: #d5a08a;">Nuestros informes se elaboran con rigurosidad metodológica,
+                        procedimientos
+                        estandarizados y lenguaje técnico, garantizando su validez en procedimientos legales o
+                        administrativos.</p>
+                    <p style="color: #5d6c7e;">La objetividad, la claridad y la solidez científica son los pilares de
+                        nuestro trabajo pericial.</p>
+                </div>
+                <img class="service-img" src="../../assets/PERICIALES.jpg" alt="">
+            </div>
         </div>
-        <!-- <div class="divWidth"> -->
-        <!-- <div class="infoLanding">
-                <h1>
-                    Evaluación y terapia neuropsicológica infantil y adultos
-                </h1>
-                
-                <p>
-                    Ofrecemos terapia neuropsicológica infanto-juvenil y adultos: TDAH, dislexia, transtornos
-                    emocionales y de aprendizaje, daño cerebral. Además realizamos evaluaciones completas adaptadas a
-                    las necesidades de cada paciente.
-                </p>
-            </div> -->
-        <TextBlock -header="Evaluación y terapia neuropsicológica infantil y adultos" -text="Ofrecemos terapia neuropsicológica infanto-juvenil y adultos: TDAH, dislexia, transtornos
-                    emocionales y de aprendizaje, daño cerebral. Además realizamos evaluaciones completas adaptadas a
-                    las necesidades de cada paciente." />
-        <img style="display: flex; margin: auto; width: 50%;" src="../../assets/libretas.jpg">
-        <!-- <div class="infoLanding">
-                <h1>
-
-                </h1>
-
-                <p>
-                    AULA es un test de atención avanzado que utiliza unas gafas de realidad virtual para simular una
-                    clase escolar. Evalúa la tendencia a la distracción, al introducir distractores típicos de una clase
-                    escolar. Mira cómo funciona en el vídeo que encontrarás al final de esta página.
-                </p>
-                
-            </div> -->
-        <TextBlock -header="Test Aula Nesplora de Realidad Virtual para detección de TDAH" -text="AULA es un test de atención avanzado que utiliza unas gafas de realidad virtual para simular una
-                    clase escolar. Evalúa la tendencia a la distracción, al introducir distractores típicos de una clase
-                    escolar. Mira cómo funciona en el vídeo que encontrarás al final de esta página." />
-        <img style="display: flex; margin: auto; width: 50%;" src="../../assets/aula.jpg">
-        <!-- </div> -->
-        <PageDivider />
         <AppFooter />
     </main>
 </template>
 <script>
-// import AppNavBar from '../shared/AppNavBar.vue';
 import AppFooter from '../shared/AppFooter.vue';
-import TextBlock from '../shared/TextBlock.vue';
-import PageDivider from '../shared/PageDivider.vue';
 export default {
     components: {
-        // AppNavBar,
         AppFooter,
-        TextBlock,
-        PageDivider
     }
 }
 </script>
@@ -76,9 +95,32 @@ export default {
     margin-right: auto;
 }
 
+.img-center {
+    display: flex;
+    margin: auto;
+}
+
 .divWidth img {
     width: 100%;
     object-fit: cover;
+}
+
+.service-item {
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.service-img {
+    margin: 20px;
+    width: 50%;
+    height: 50%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: -5px -5px #a47e64;
 }
 
 @media (max-width: 900px) {
@@ -92,6 +134,25 @@ export default {
         margin-left: auto;
         margin-right: auto;
         display: block;
+    }
+
+    .service-item {
+        flex-direction: column;
+        width: 90%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .service-item-par {
+        flex-direction: column-reverse;
+    }
+
+    .div-text {
+        width: 100%;
+    }
+
+    .img-center {
+        width: 100%;
     }
 }
 </style>

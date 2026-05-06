@@ -2,22 +2,24 @@
     <div>
         <!-- <ReviewBlock></ReviewBlock> -->
         <nav class="centrado">
-            <router-link class="enlaceImg" to="/">
+            <div class="centrado-div">
                 <img src="./assets/logoTexto.png" width="100">
-            </router-link>
-            <ul class="menu">
-                <li><router-link to="/servicios" class="enlace">Servicios</router-link></li>
-                <li><router-link to="/tdah" class="enlace">¿Que es el TDAH?</router-link></li>
-                <li><router-link to="/nuesto_centro" class="enlace">Nuestro centro</router-link></li>
-                <li><router-link to="/contacto" class="enlace">Nosotros/Contacto</router-link></li>
-                <li><router-link to="/privacidad" class="enlace">Política de privacidad</router-link></li>
-            </ul>
-            <div class="menu-toggle" id="menu-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+
+                <ul class="menu">
+                    <li><router-link class="enlace" to="/">
+                            Inicio
+                        </router-link></li>
+                    <li><router-link to="/servicios" class="enlace">Servicios</router-link></li>
+                    <li><router-link to="/contacto" class="enlace">Sobre nosotros</router-link></li>
+                    <li><router-link to="/TDAH" class="enlace">Evaluación TDAH</router-link></li>
+                </ul>
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </nav>
         <router-view v-slot="{ Component }">
@@ -34,20 +36,29 @@ p {
 }
 
 h1,
-a {
+a,
+h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.centrado {
-    background-color: #303943;
-    padding: 1rem;
+.centrado-div {
     display: flex;
     width: 50%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     justify-items: center;
     margin: auto;
-    border-radius: 15px;
+
+}
+
+.centrado {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    box-shadow: 0px 5px 10px rgba(68, 68, 68, 0.514);
 }
 
 .enlaceImg {
@@ -58,14 +69,9 @@ a {
 
 .enlace {
     margin: 0px;
-    color: white;
+    color: #1D2D35;
     text-decoration: none;
     padding: 15px;
-    background-color: #427296;
-    border-bottom: 5px solid cadetblue;
-    border-top: 5px solid #427296;
-    border-left: 0px solid #427296;
-    border-right: 0px solid #427296;
     max-height: 10%;
 }
 
@@ -94,20 +100,19 @@ a {
 
 
 
-nav .enlace:hover,
-nav .enlace.router-link-exact-active {
-    border: 5px solid cadetblue;
-    border-left: 0px solid cadetblue;
-    border-right: 0px solid cadetblue;
-    background-color: cadetblue;
-
+nav .enlace:hover {
+    color: #d5a08a;
 }
 
-main {
+nav .enlace.router-link-exact-active {
+    border-bottom: 10px, solid, #1D2D35;
+}
+
+/* main {
     position: absolute;
     top: 15%;
     will-change: transform, opacity;
-}
+} */
 
 .fade-enter-from,
 .fade-leave-to {
@@ -132,25 +137,20 @@ main {
 @media (min-width: 901px) and (max-width: 1800px) {
     .enlace {
         margin: 0px;
-        color: white;
+        color: #1D2D35;
         text-decoration: none;
-        padding: 15px;
-        background-color: transparent;
-        border-bottom: 0px solid cadetblue;
-        border-top: 0px solid #427296;
-        border-left: 0px solid #427296;
-        border-right: 0px solid #427296;
+        padding: 10px;
         max-height: 10%;
     }
 
-    nav .enlace:hover,
-    nav .enlace.router-link-exact-active {
-        border: 0px solid cadetblue;
-        border-left: 0px solid cadetblue;
-        border-right: 0px solid cadetblue;
-        background-color: transparent;
-        color: darkgoldenrod;
+    nav .enlace:hover {
+        color: #d5a08a;
     }
+
+    nav .enlace.router-link-exact-active {
+        border-bottom: 5px solid #1D2D35;
+    }
+
 }
 
 /* Media Query para pantallas menores a 900px */
@@ -158,10 +158,10 @@ main {
     .menu {
         display: none;
         position: absolute;
-        top: 120px;
+        top: 85px;
         left: 0;
         width: 100%;
-        background-color: #333;
+        background-color: #1D2D35;
         flex-direction: column;
         align-items: center;
         z-index: 2;
@@ -176,6 +176,11 @@ main {
         margin-bottom: 0.5rem;
     }
 
+    .enlace {
+        color: #e8e8e2;
+        font-weight: bold;
+    }
+
     .menu.active {
         display: flex;
     }
@@ -186,19 +191,18 @@ main {
 
     main {
         position: absolute;
-        top: 20%;
+        /* top: 20%; */
         will-change: transform, opacity;
     }
 
     p {
-        font-size: medium;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: justify;
+        font-size: large;
+        font-family: "Open Sans", Geneva, Tahoma, sans-serif;
     }
 
     h1,
     a {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: "Lora", Geneva, Tahoma, sans-serif;
         text-align: justify;
     }
 

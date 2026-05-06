@@ -1,7 +1,7 @@
 <template>
     <!-- <AppNavBar/> -->
     <main>
-        <div class="infoLanding">
+        <div class="info">
             <h1>
                 POLÍTICA DE PRIVACIDAD
             </h1>
@@ -92,26 +92,26 @@
                 RESPONSABLE a través de Santiago Alonso Estrada Regueiro. Avda. de los Derechos Humanos, nº 2, Local 12
                 - 28924 Alcorcón (Madrid). E-mail: santiagoestradar@gmail.com </p>
         </div>
-        <PageDivider />
         <AppFooter />
     </main>
 </template>
 <script>
-// import AppNavBar from '../shared/AppNavBar.vue';
 import AppFooter from '../shared/AppFooter.vue';
-import PageDivider from '../shared/PageDivider.vue';
 export default {
     components: {
-        // AppNavBar,
         AppFooter,
-        PageDivider
     }
 }
 </script>
 <style scoped>
-.infoLanding li {
+.info li {
     text-decoration: underline;
     font-weight: bolder
+}
+
+.info {
+    width: 1080px;
+    margin: auto;
 }
 
 .firma {
@@ -121,5 +121,11 @@ export default {
 .titleCenter {
     text-align: center;
     font-weight: bolder
+}
+
+@media (max-width: 900px) {
+    .info {
+        width: 90%;
+    }
 }
 </style>
