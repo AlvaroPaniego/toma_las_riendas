@@ -1,111 +1,113 @@
 <template>
-    <div>
-        <!-- <ReviewBlock></ReviewBlock> -->
-        <nav class="centrado">
-            <div class="centrado-div">
-                <img src="./assets/logoTexto.png" width="100">
+  <div>
+    <!-- <ReviewBlock></ReviewBlock> -->
+    <nav class="centrado">
+      <div class="centrado-div">
+        <img src="./assets/logoTexto.png" width="100" />
 
-                <ul class="menu">
-                    <li><router-link class="enlace" to="/">
-                            Inicio
-                        </router-link></li>
-                    <li><router-link to="/servicios" class="enlace">Servicios</router-link></li>
-                    <li><router-link to="/contacto" class="enlace">Sobre nosotros</router-link></li>
-                    <li><router-link to="/TDAH" class="enlace">Evaluación TDAH</router-link></li>
-                </ul>
-                <div class="menu-toggle" id="menu-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </nav>
-        <router-view v-slot="{ Component }">
-            <transition name="slide" mode="ease-out">
-                <component :is="Component" />
-            </transition>
-        </router-view>
-    </div>
+        <ul class="menu">
+          <li><router-link class="enlace" to="/"> Inicio </router-link></li>
+          <li>
+            <router-link to="/servicios" class="enlace">Servicios</router-link>
+          </li>
+          <li>
+            <router-link to="/contacto" class="enlace"
+              >Sobre nosotros</router-link
+            >
+          </li>
+          <li>
+            <router-link to="/TDAH" class="enlace">Evaluación TDAH</router-link>
+          </li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <router-view v-slot="{ Component }">
+      <transition name="slide" mode="ease-out">
+        <component :is="Component" />
+      </transition>
+    </router-view>
+  </div>
 </template>
 <style>
 p {
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1,
 a,
 h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .centrado-div {
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-    align-items: center;
-    justify-items: center;
-    margin: auto;
-
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
 }
 
 .centrado {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    justify-items: center;
-    margin: auto;
-    box-shadow: 0px 5px 10px rgba(68, 68, 68, 0.514);
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+  box-shadow: 0px 5px 10px rgba(68, 68, 68, 0.514);
 }
 
 .enlaceImg {
-    background-color: white;
-    border-radius: 25%;
-    padding: 1px;
+  background-color: white;
+  border-radius: 25%;
+  padding: 1px;
 }
 
 .enlace {
-    margin: 0px;
-    color: #1D2D35;
-    text-decoration: none;
-    padding: 15px;
-    max-height: 10%;
+  margin: 0px;
+  color: #1d2d35;
+  text-decoration: none;
+  padding: 15px;
+  max-height: 10%;
 }
 
 .menu {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .menu li {
-    display: inline;
+  display: inline;
 }
 
 .menu-toggle {
-    display: none;
-    cursor: pointer;
-    flex-direction: column;
-    gap: 5px;
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .menu-toggle span {
-    width: 25px;
-    height: 4px;
-    background-color: white;
-    border-radius: 2px;
+  width: 25px;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
 }
 
-
-
-
 nav .enlace:hover {
-    color: #d5a08a;
+  color: #d5a08a;
 }
 
 nav .enlace.router-link-exact-active {
-    border-bottom: 10px, solid, #1D2D35;
+  border-bottom: 10px, solid, #1d2d35;
 }
 
 /* main {
@@ -116,112 +118,120 @@ nav .enlace.router-link-exact-active {
 
 .fade-enter-from,
 .fade-leave-to {
-    opacity: 0;
+  opacity: 0;
 }
 
 .fade-enter-active,
 .fade-leave-active {
-    transition: opacity 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
 }
 
 .slide-enter-from,
 .slide-leave-to {
-    transform: translateX(100%);
+  transform: translateX(100%);
 }
 
 .slide-enter-active,
 .slide-leave-active {
-    transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
 }
 
 @media (min-width: 901px) and (max-width: 1800px) {
-    .enlace {
-        margin: 0px;
-        color: #1D2D35;
-        text-decoration: none;
-        padding: 10px;
-        max-height: 10%;
-    }
+  .enlace {
+    margin: 0px;
+    color: #1d2d35;
+    text-decoration: none;
+    padding: 10px;
+    max-height: 10%;
+  }
 
-    nav .enlace:hover {
-        color: #d5a08a;
-    }
+  nav .enlace:hover {
+    color: #d5a08a;
+  }
 
-    nav .enlace.router-link-exact-active {
-        border-bottom: 5px solid #1D2D35;
-    }
-
+  nav .enlace.router-link-exact-active {
+    border-bottom: 5px solid #1d2d35;
+  }
 }
 
 /* Media Query para pantallas menores a 900px */
 @media (max-width: 900px) {
-    .menu {
-        display: none;
-        position: absolute;
-        top: 85px;
-        left: 0;
-        width: 100%;
-        background-color: #1D2D35;
-        flex-direction: column;
-        align-items: center;
-        z-index: 2;
+  .menu {
+    display: none;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    width: 100%;
+    background-color: #1d2d35;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+  }
 
-    }
+  .menu li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
 
-    .menu li {
-        display: block;
-        width: 100%;
-        text-align: center;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
-    }
+  .enlace {
+    color: #e8e8e2;
+    font-weight: bold;
+  }
 
-    .enlace {
-        color: #e8e8e2;
-        font-weight: bold;
-    }
+  .menu.active {
+    display: flex;
+  }
 
-    .menu.active {
-        display: flex;
-    }
+  .menu-toggle {
+    display: flex;
+  }
 
-    .menu-toggle {
-        display: flex;
-    }
+  main {
+    position: absolute;
+    /* top: 20%; */
+    will-change: transform, opacity;
+  }
 
-    main {
-        position: absolute;
-        /* top: 20%; */
-        will-change: transform, opacity;
-    }
+  p {
+    font-size: large;
+    font-family: "Open Sans", Geneva, Tahoma, sans-serif;
+  }
 
-    p {
-        font-size: large;
-        font-family: "Open Sans", Geneva, Tahoma, sans-serif;
-    }
+  h1 {
+    font-family: "Lora", Geneva, Tahoma, sans-serif;
+    text-align: center !important;
+  }
 
-    h1,
-    a {
-        font-family: "Lora", Geneva, Tahoma, sans-serif;
-        text-align: justify;
-    }
+  h2,
+  h3,
+  a,
+  p,
+  .text-div,
+  .infoLanding p,
+  .objectives div p,
+  [style*="text-align: justify"] {
+    font-family: "Lora", Geneva, Tahoma, sans-serif;
+    text-align: left !important;
+  }
 
-    nav .enlace {
-        border: 0px solid transparent;
-        border-left: 0px solid transparent;
-        border-right: 0px solid transparent;
-        background-color: transparent;
-    }
+  nav .enlace {
+    border: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    background-color: transparent;
+  }
 
-    .router-link-active.router-link-exact-active.enlace {
-        border: 0px solid transparent;
-        border-left: 0px solid transparent;
-        border-right: 0px solid transparent;
-        background-color: cadetblue;
-        padding: 1px;
-        border-radius: 5%;
-
-    }
+  .router-link-active.router-link-exact-active.enlace {
+    border: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    background-color: cadetblue;
+    padding: 1px;
+    border-radius: 5%;
+  }
 }
 </style>
 
@@ -229,16 +239,16 @@ nav .enlace.router-link-exact-active {
 // import ContactItem from './components/shared/ContactItem.vue';
 // import ReviewBlock from './components/shared/ReviewItem.vue';
 export default {
-    components: {
-        // ReviewBlock,
-        // ContactItem
-    },
-    mounted() {
-        var menuToggle = document.getElementById("menu-toggle")
-        console.log(menuToggle);
-        menuToggle.addEventListener("click", function () {
-            document.querySelector(".menu").classList.toggle("active");
-        });
-    }
-}
+  components: {
+    // ReviewBlock,
+    // ContactItem
+  },
+  mounted() {
+    var menuToggle = document.getElementById("menu-toggle");
+    console.log(menuToggle);
+    menuToggle.addEventListener("click", function () {
+      document.querySelector(".menu").classList.toggle("active");
+    });
+  },
+};
 </script>

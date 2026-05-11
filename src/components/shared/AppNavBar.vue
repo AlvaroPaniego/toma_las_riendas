@@ -4,7 +4,7 @@
             <img src="../../assets/logoTexto.png" width="100">
         </router-link>
         <router-link to="/servicios" class="enlace">Servicios</router-link>
-        <router-link to="/nuesto_centro" class="enlace">Sobre nosotros</router-link>
+        <router-link to="/nuestro_centro" class="enlace">Sobre nosotros</router-link>
     </div>
 </template>
 <style>

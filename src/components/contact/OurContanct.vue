@@ -3,9 +3,9 @@
     <main>
         <div class="text-with-image">
             <div class="text-div">
-                <h1 style="text-align: center;">¿Como trabajamos?</h1>
+                <h1 style="text-align: center;">¿Cómo trabajamos?</h1>
                 <p style="color: #5d6c7e;">Somos especialistas en evaluación y diagnóstico neuropsicológico de
-                    trastornos neurocognitivos y neurodivegencias</p>
+                    trastornos neurocognitivos y neurodivergencias</p>
                 <p style="color: #d5a08a;"> (TDAH, TEA, discapacidad intelectual, trastornos de aprendizaje,
                     demencias...)</p>
                 <ul>

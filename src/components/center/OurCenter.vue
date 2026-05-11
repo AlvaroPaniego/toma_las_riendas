@@ -4,7 +4,7 @@
         <div class="divWidth">
             <div class="infoLanding">
                 <h1>
-                    Nuestos valores
+                    Nuestros valores
                 </h1>
                 <div class="fila">
                     <div class="espacio">
@@ -25,7 +25,7 @@
                         <h1>OBJETIVIDAD</h1>
                         <p>Estas técnicas nos permiten ser capaces de valorar, diagnosticar y
                             tratar de forma objetiva a todos nuestros pacientes. Nosotros no
-                            opinamos; nosotros medimos , diagnosticamos y tratamos con
+                            opinamos; nosotros medimos, diagnosticamos y tratamos con
                             terapia basada en la evidencia científica.
                             Ser objetivo también ayuda a comprender tu complejidad y a que
                             también conozcas tus puntos fuertes y tus virtudes, pues muchas veces
@@ -56,11 +56,11 @@
                         <h1>EMPATÍA</h1>
                         <p>Siempre intentamos echar una mano en cualquier duda que surja,
                             aclaración, comunicación con otros profesionales, redacción y entrega
-                            de documentación... Somos conscientes gran paso que supone asistir o
+                            de documentación... Somos conscientes del gran paso que supone asistir o
                             traer a tus hijos a terapia psicológica y por eso nos volcamos al cien por
                             cien. Nos gusta conocer a la gente más allá de sus problemas y nos
                             encanta la gente educada, con valores, virtudes y ganas de
-                            mejorar</p>
+                            mejorar.</p>
                     </div>
                     <div class="espacio">
                         <img src="../../assets/empatia.png" alt="">

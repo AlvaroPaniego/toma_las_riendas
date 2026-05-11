@@ -17,7 +17,7 @@
             </div>
             <div class="footer-links">
                 <h2>Acuerdos legales</h2>
-                <p><router-link to="/privacidad">Proteccion de datos</router-link></p>
+                <p><router-link to="/privacidad">Protección de datos</router-link></p>
             </div>
             <div class="footer-links">
                 <h2>Contacto</h2>

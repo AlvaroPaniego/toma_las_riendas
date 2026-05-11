@@ -12,7 +12,7 @@
                         y adultos</p>
                     <p style="color: #d5a08a;">Nuestro proceso incluye entrevistas clínicas, pruebas estandarizadas y
                         análisis del entorno familiar,
-                        educativo/ laboral.</p>
+                        educativo/laboral.</p>
                     <p style="color: #5d6c7e;">El objetivo es obtener un diagnóstico preciso que permita diseñar
                         estrategias
                         de intervención
@@ -41,12 +41,12 @@
             <div class="service-item service-item-par">
                 <img class="service-img" src="../../assets/SUPERVISIÓN.png" alt="">
                 <div class="div-text">
-                    <h1>Supervisión de casos clínicos/ mentoring piscológico</h1>
+                    <h1>Supervisión de casos clínicos/ mentoring psicológico</h1>
                     <p style="color: #5d6c7e;">Nuestra amplia experiencia ha ayudado a decenas de compañeros a la hora
                         de
                         sacar adelante retos terapéuticos, casos difíciles o cambios de paradigma.</p>
                     <p style="color: #d5a08a;">Nuestro conocimiento técnico, combinado con un abordaje pedagógico, ha
-                        ayudado a los/ las psicólogos/ as que nos han contactado desde todas partes del mundo a disipar
+                        ayudado a los/las psicólogos/as que nos han contactado desde todas partes del mundo a disipar
                         sus
                         dudas y a ofrecerles orientación para reconducir a sus pacientes.</p>
                     <p style="color: #5d6c7e;">Ofrecemos nuestro servicio de supervisión y mentoring de forma online o

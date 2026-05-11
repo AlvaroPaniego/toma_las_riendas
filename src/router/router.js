@@ -25,7 +25,7 @@ const routes = [
     },
 
     {
-        path: '/nuesto_centro',
+        path: '/nuestro_centro',
         name:"",
         component: () => import("@/components/center/OurCenter.vue")
     },
